@@ -1,0 +1,31 @@
+{
+  "name": "ks-colorify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MusKRI/ks-colorify"
+  },
+  "bugs": {
+    "url": "https://github.com/MusKRI/ks-colorify/issues"
+  },
+  "homepage": "https://github.com/MusKRI/ks-colorify#readme",
+  "keywords": [
+    "Console Log Colors",
+    "colorify logs"
+  ],
+  "author": "Krishna",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.2"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
